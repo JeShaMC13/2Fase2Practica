@@ -9,13 +9,7 @@ import java.awt.event.*;
 
 //public class Canvas extends JFrame {
 
-/*import java.awt.Dimension;
-	import java.awt.FlowLayout;
-	import java.awt.event.ActionEvent;
-	import java.awt.event.ActionListener;
-	import javax.swing.JButton;
-	import javax.swing.JFrame;
-	import javax.swing.JOptionPane;*/
+
 
 //public class Canvas extends JPanel{
 
@@ -62,8 +56,8 @@ import java.awt.event.*;
 	    // Boton2.setBounds (10,10,70,20);
 	    //contenedor = null;
 	    //contenedor.setLayout(null);  // Eliminamos el layout
-	    //contenedor.add (Boton1); // A馻dimos el bot髇
-		//Boton1.setBounds (10,10,40,20); // Bot髇 en posicion 10,10 con ancho 40 pixels y alto 20
+	    //contenedor.add (Boton1); // A帽adimos el bot贸n
+		//Boton1.setBounds (10,10,40,20); // Bot贸n en posicion 10,10 con ancho 40 pixels y alto 20
 	//agregando los botones a la ventana
 	     
 		jf.add(Boton1, BorderLayout.SOUTH); 
@@ -71,7 +65,7 @@ import java.awt.event.*;
 		jf.add(Nombre);
 		jf.add(graph);
 		
-		//a馻diendo el listener a los botones para manipular los eventos del click
+		//a帽adiendo el listener a los botones para manipular los eventos del click
 		Boton1.addActionListener(this);
 		Boton2.addActionListener(this);
 	
@@ -80,8 +74,8 @@ import java.awt.event.*;
 		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//finaliza el programa cuando se da click en la X        
 		jf.setResizable(false);//para configurar si se redimensiona la ventana
 		jf.setLocation((int) ((d.getWidth()/2)+290), 50);//para ubicar inicialmente donde se muestra la ventana (x, y)
-		jf.setSize(800, 600);//configurando tama駉 de la ventana (ancho, alto)
-		jf.setVisible(true);//configurando visualizaci髇 de la venta
+		jf.setSize(800, 600);//configurando tama帽o de la ventana (ancho, alto)
+		jf.setVisible(true);//configurando visualizaci贸n de la venta
 		jf.add(graph);
  
 			
@@ -138,8 +132,8 @@ private static final String JPane = null;
 		getContentPane().add(principal);
 
 		//AGREGAMOS TOOL TIPS A LOS BOTONES
-	Retroceder.setToolTipText("Bot髇 ACEPTAR...");
-		Inicio.setToolTipText("Bot髇 CANCELAR...");
+	Retroceder.setToolTipText("Bot贸n ACEPTAR...");
+		Inicio.setToolTipText("Bot贸n CANCELAR...");
 
 		pack();
 		setResizable(false); 
