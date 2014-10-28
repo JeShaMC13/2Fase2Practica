@@ -27,7 +27,7 @@ public void Agregar(int Cantidad, String tipo){
 	}
 	}
 
-//Este eliminara los vagones, segun el vagon que quiera eliminar
+//Este eliminará los vagones, segun el vagon que quiera eliminar 
 	public void Eliminar(){
 		Nodos tmp = Locomotora ;
 		Nodos nuevo= tmp;
@@ -52,7 +52,7 @@ public void Agregar(int Cantidad, String tipo){
 	}
 	
 //Este imprimira el vagon (vagones siguiente de carbon y de pasajeros) si encuentra 
-//que la "cabeza" es diferente a null
+//que la "cabeza" es diferente a null this print something
 	
 	public void Imprimir(){
 		Nodos imprimir;
